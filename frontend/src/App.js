@@ -20,7 +20,7 @@ function App() {
     setError('');
     setResponse(null);
 
-    const fullUrl = `http://localhost:3001/proxy?url=${encodeURIComponent(url)}&headers=${encodeURIComponent(headers)}`;
+    const fullUrl = `https://api-tester-4wk3.onrender.com/proxy?url=${encodeURIComponent(url)}&headers=${encodeURIComponent(headers)}`;
     console.log('Fetching:', fullUrl);
 
     const startTime = Date.now();
